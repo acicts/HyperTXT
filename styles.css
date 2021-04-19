@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,6 +7,7 @@
   padding: 0;
   user-select: none;
 }
+
 html,
 body {
   width: 100%;
@@ -34,11 +35,11 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Exo 2', sans-serif;
 }
 p,
 footer {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .bg-video {
   position: fixed;
@@ -97,10 +98,10 @@ footer {
   background: #141414;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .sub-heading {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 30px;
 }
 h2 {
@@ -121,14 +122,14 @@ footer {
   font-size: 0.7rem;
 }
 .winner {
-  font-size: 1.8rem;
+  font-size: 2.3rem;
 }
 .winner-name {
   font-size: 1.5rem;
 }
 
 .runner-up {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
 }
 .runner-up-name {
   font-size: 1rem;

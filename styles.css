@@ -15,10 +15,10 @@ body {
   background: rgba(0, 0, 0, 0.85);
   background-size: auto 100%;
   color: white;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -27,6 +27,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: #0066cc;
+  border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -90,9 +91,9 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 450px;
-  height: 450px;
-  padding: 3em;
+  width: 30%;
+  height: 80%;
+  padding: 2.5em;
 }
 .position-card:hover {
   background: #141414;
@@ -101,7 +102,7 @@ h1 {
   font-size: 3.5rem;
 }
 .sub-heading {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 30px;
 }
 h2 {
@@ -134,7 +135,7 @@ footer {
 .runner-up-name {
   font-size: 1rem;
 }
-@media screen and (max-width: 1425px) {
+/* @media screen and (max-width: 1425px) {
   .runners-up {
     width: 400px;
     height: 400px;
@@ -185,21 +186,56 @@ footer {
   :root {
     font-size: 11px;
   }
-}
+} */
+
 @media screen and (max-width: 1000px) {
+  .sub-heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .winner {
+    font-size: 2rem;
+  }
+  .winner-name {
+    font-size: 1.3rem;
+  }
+  
+  .runner-up {
+    font-size: 1.4rem;
+  }
+  .runner-up-name {
+    font-size: 1rem;
+  }
+  .position-card{
+    padding: 2.5em;
+  }
+} 
+
+@media screen and (max-width: 1000px) {
+  .congrats{font-size: 8vw;}
+  .sub-heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .winner {
+    font-size: 2rem;
+  }
+  .winner-name {
+    font-size: 1.3rem;
+  }
+  
+  .runner-up {
+    font-size: 1.4rem;
+  }
+  .runner-up-name {
+    font-size: 1rem;
+  }
   .positions {
     flex-direction: column;
   }
-  .position-card {
-    width: 200px;
-    height: 200px;
+  .position-card{
+    width: 80%;
+    height: 90%;
+    margin-bottom: 50px;
   }
-  .wrapper {
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
-  }
-  :root {
-    font-size: 5px;
-  }
-}
+} 
